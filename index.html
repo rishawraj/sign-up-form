@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="script.js" defer></script> -->
+    <title>sign-up-form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- 1 -->
+      <div class="hero-image">
+        <div class="hero-text">
+          <img src="./resources/logo.svg" alt="logo" />
+          <h1>cetra</h1>
+        </div>
+      </div>
+      <!-- 2 -->
+      <main>
+        <div class="description">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. <br />
+            Sign up <em>now</em> to get started.
+          </p>
+
+          <p>You <em>know</em> you want to.</p>
+        </div>
+
+        <form action="#">
+          <div class="form-container">
+            <p>Let's do this!</p>
+
+            <fieldset>
+              <div class="form-cell">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" />
+              </div>
+              <div class="form-cell">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="form-cell">
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+              </div>
+              <div class="form-cell">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="form-cell">
+                <label for="password">Password</label>
+                <input type="password" id="password" />
+              </div>
+              <div class="form-cell">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" />
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="button-area">
+            <button type="submit">Create Account</button>
+            <p>Already have an account. <a href="#">Log in</a></p>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
