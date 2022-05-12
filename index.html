@@ -29,40 +29,45 @@
           <p id="second-para">You <em>know</em> you want to.</p>
         </div>
 
-        <form action="#">
+        <form action="https://httpbin.org/post" method="post">
           <div class="form-container">
             <p>Let's do this!</p>
 
             <fieldset>
               <div class="form-cell">
                 <label for="first-name">First Name</label>
-                <input type="text" id="first-name" />
+                <input type="text" id="first-name" name="first-name" required />
               </div>
               <div class="form-cell">
                 <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" />
+                <input type="text" id="last-name" name="last-name" required />
               </div>
             </fieldset>
 
             <fieldset>
               <div class="form-cell">
                 <label for="email">Email</label>
-                <input type="email" id="email" />
+                <input type="email" id="email" name="email" required />
               </div>
               <div class="form-cell">
                 <label for="phoneNumber">Phone Number</label>
-                <input type="tel" id="phoneNumber" />
+                <input type="tel" id="phoneNumber" name="phone-number" />
               </div>
             </fieldset>
 
             <fieldset>
               <div class="form-cell">
                 <label for="password">Password</label>
-                <input type="password" id="password" />
+                <input type="password" id="password" name="password" required />
               </div>
               <div class="form-cell">
                 <label for="confirmPassword">Confirm Password</label>
-                <input type="password" id="confirmPassword" />
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  name="confirm-password"
+                  required
+                />
               </div>
             </fieldset>
           </div>
